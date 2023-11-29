@@ -1,8 +1,10 @@
 #!/usr/bin/python3
+# SPDX-FileCopyrightText: 2023 shinnosuke kitazawa
+# SPDX-License-Identifier: BSD-3-Clause
 import sys
-
-ans = 0.0
-for line in sys.stdin:
-    ans += float(line)
-
-print(ans)
+x = 0.0
+for n in sys.argv[1:]:
+    a = float(n)
+    b = float(1)
+    x = a/b
+  print(x)
