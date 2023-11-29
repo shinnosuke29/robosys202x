@@ -2,9 +2,11 @@
 # SPDX-FileCopyrightText: 2023 shinnosuke kitazawa
 # SPDX-License-Identifier: BSD-3-Clause
 import sys
+
 x = 0.0
+a = 0.0
+b = float(sys.argv[1])
 for n in sys.argv[1:]:
-    a = float(n)
-    b = float(1)
-    x = a/b
+    a += float(n)
+    x = a*b
 print(x)
