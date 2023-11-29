@@ -7,4 +7,4 @@ for n in sys.argv[1:]:
     a = float(n)
     b = float(1)
     x = a/b
-  print(x)
+print(x)
