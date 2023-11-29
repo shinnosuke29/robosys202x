@@ -1,5 +1,5 @@
 #!/bin/bash
   　
-out=$(seq 5 | ./plus)
+out=$(./plus 2 4 6)
   　
-[ "${out}" = 15 ]
+[ "${out}" = 24 ]
